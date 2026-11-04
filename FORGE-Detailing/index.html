@@ -1,1 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>FORGE: bespoke automotive atelier</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Inter+Tight:wght@400;500;600&display=swap" rel="stylesheet">
 
+<link rel="stylesheet" href="./style.css">
+</head>
+<body id="top">
+<header class="nav">
+  <div class="soc">
+    <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M4 9h4v11H4zM6 3.5A2.3 2.3 0 1 1 6 8a2.3 2.3 0 0 1 0-4.600zM10 9h3.800v1.600C14.400 9.600 15.700 8.800 17.500 8.800c3.500 0 4.500 2.200 4.500 5.300V20h-4v-5.200c0-1.400-.2-2.800-1.900-2.800s-2 1.300-2 2.700V20h-4z"/></svg></a>
+    <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4zm0 2a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2zm5 2.500a4.500 4.500 0 1 1 0 9 4.500 4.500 0 0 1 0-9zm0 2a2.500 2.500 0 1 0 0 5 2.500 2.500 0 0 0 0-5zM17.300 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></a>
+    <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M13.500 21v-8h2.700l.4-3.200h-3.100V7.900c0-.9.300-1.500 1.600-1.500h1.700V3.500c-.3 0-1.300-.1-2.400-.1-2.400 0-4 1.400-4 4.100v2.300H7.700V13h2.700v8z"/></svg></a>
+  </div>
+  <a class="logo" href="#top" aria-label="FORGE, back to top"><svg viewBox="0 0 32 32"><path d="M2 26 16 6l14 20h-6.200L16 15l-7.800 11zM16 19l4 7h-8z"/></svg></a>
+  <button class="navbtn" id="navbtn" aria-expanded="false" aria-controls="menu">NAVIGATE <span aria-hidden="true">≡</span></button>
+</header>
+
+<nav class="menu" id="menu" aria-label="Site" data-lenis-prevent>
+  <ul>
+    <li><a href="#approach">Approach</a></li><li><a href="#identity">Identity</a></li><li><a href="#insight">Insight</a></li>
+    <li><a href="#bodystyling">Bodystyling</a></li><li><a href="#wheels">Wheels</a></li><li><a href="#lighting">Lighting</a></li>
+    <li><a href="#exhaust">Exhaust</a></li><li><a href="#builds">Previous Builds</a></li><li><a href="#stock">Available Stock</a></li><li><a href="#contact">Start a project</a></li>
+  </ul>
+</nav>
+
+<main>
+<section class="hero" aria-label="FORGE">
+  <div class="hero-in">
+    <h1 class="sr">For those who refuse ordinary</h1>
+    <canvas id="seq" aria-hidden="true"></canvas>
+    <div class="hero-fade"></div>
+    <span class="hint">SCROLL</span>
+    <div class="ld" id="ld"></div>
+  </div>
+</section>
+
+<section class="fall" id="fall" aria-labelledby="fallh">
+  <div class="trail" aria-hidden="true"><figure class="tile" data-s="-0.160" data-ox="-0.38" data-oy="2.40" style="--w:11.2;--ar:3/2;--z:1.21;z-index:1"><div class="plate" data-img="fall3" style="--pos:25% 35%"></div></figure><figure class="tile" data-s="-0.130" data-ox="-0.27" data-oy="-1.55" style="--w:15.0;--ar:3/4;--z:1.50;z-index:2"><div class="plate" data-img="fall7" style="--pos:45% 44%"></div></figure><figure class="tile" data-s="-0.100" data-ox="0.08" data-oy="-3.29" style="--w:11.5;--ar:3/4;--z:1.28;z-index:3"><div class="plate" data-img="fall1" style="--pos:43% 54%"></div></figure><figure class="tile" data-s="-0.070" data-ox="-2.77" data-oy="-3.38" style="--w:12.5;--ar:1/1;--z:1.15;z-index:4"><div class="plate" data-img="fall2" style="--pos:28% 60%"></div></figure><figure class="tile" data-s="0.000" data-ox="-0.80" data-oy="1.46" style="--w:10.4;--ar:5/4;--z:1.44;z-index:5"><div class="plate" data-img="fall6" style="--pos:74% 47%"></div></figure><figure class="tile" data-s="0.033" data-ox="-1.04" data-oy="-1.32" style="--w:7.1;--ar:4/5;--z:1.53;z-index:6"><div class="plate" data-img="fall5" style="--pos:32% 38%"></div></figure><figure class="tile" data-s="0.067" data-ox="-1.62" data-oy="-2.79" style="--w:7.5;--ar:4/5;--z:1.12;z-index:7"><div class="plate" data-img="fall4" style="--pos:60% 42%"></div></figure><figure class="tile" data-s="0.100" data-ox="-0.34" data-oy="-2.17" style="--w:12.9;--ar:1/1;--z:1.29;z-index:8"><div class="plate" data-img="fall10" style="--pos:49% 37%"></div></figure><figure class="tile" data-s="0.134" data-ox="-0.67" data-oy="3.43" style="--w:7.0;--ar:5/4;--z:1.21;z-index:9"><div class="plate" data-img="fall9" style="--pos:26% 43%"></div></figure><figure class="tile" data-s="0.167" data-ox="-2.00" data-oy="3.47" style="--w:11.8;--ar:5/4;--z:1.07;z-index:10"><div class="plate" data-img="fall8" style="--pos:34% 43%"></div></figure><figure class="tile" data-s="0.201" data-ox="-0.37" data-oy="-3.43" style="--w:11.9;--ar:4/3;--z:1.27;z-index:11"><div class="plate" data-img="fall5" style="--pos:29% 35%"></div></figure><figure class="tile" data-s="0.234" data-ox="-1.86" data-oy="0.96" style="--w:7.1;--ar:4/3;--z:1.26;z-index:12"><div class="plate" data-img="fall7" style="--pos:54% 38%"></div></figure><figure class="tile" data-s="0.268" data-ox="2.94" data-oy="-0.11" style="--w:11.6;--ar:4/5;--z:1.13;z-index:13"><div class="plate" data-img="fall6" style="--pos:34% 49%"></div></figure><figure class="tile" data-s="0.301" data-ox="2.61" data-oy="2.22" style="--w:9.0;--ar:1/1;--z:1.11;z-index:14"><div class="plate" data-img="fall1" style="--pos:65% 65%"></div></figure><figure class="tile" data-s="0.334" data-ox="-1.94" data-oy="3.15" style="--w:14.1;--ar:5/4;--z:1.05;z-index:15"><div class="plate" data-img="fall8" style="--pos:28% 36%"></div></figure><figure class="tile" data-s="0.368" data-ox="-2.50" data-oy="0.09" style="--w:9.0;--ar:3/2;--z:1.49;z-index:16"><div class="plate" data-img="fall9" style="--pos:41% 56%"></div></figure><figure class="tile" data-s="0.401" data-ox="2.07" data-oy="0.68" style="--w:9.3;--ar:1/1;--z:1.65;z-index:17"><div class="plate" data-img="fall4" style="--pos:29% 38%"></div></figure><figure class="tile" data-s="0.435" data-ox="-1.74" data-oy="0.42" style="--w:13.8;--ar:5/4;--z:1.05;z-index:18"><div class="plate" data-img="fall2" style="--pos:38% 43%"></div></figure><figure class="tile" data-s="0.468" data-ox="1.59" data-oy="-3.02" style="--w:10.3;--ar:1/1;--z:1.04;z-index:19"><div class="plate" data-img="fall3" style="--pos:36% 48%"></div></figure><figure class="tile" data-s="0.502" data-ox="-0.84" data-oy="0.51" style="--w:8.1;--ar:4/3;--z:1.10;z-index:20"><div class="plate" data-img="fall10" style="--pos:53% 51%"></div></figure><figure class="tile" data-s="0.535" data-ox="1.00" data-oy="1.34" style="--w:11.7;--ar:1/1;--z:1.41;z-index:21"><div class="plate" data-img="fall4" style="--pos:26% 60%"></div></figure><figure class="tile" data-s="0.569" data-ox="2.63" data-oy="1.41" style="--w:14.7;--ar:3/4;--z:1.42;z-index:22"><div class="plate" data-img="fall1" style="--pos:29% 60%"></div></figure><figure class="tile" data-s="0.602" data-ox="-2.77" data-oy="-1.32" style="--w:8.1;--ar:3/4;--z:1.05;z-index:23"><div class="plate" data-img="fall3" style="--pos:59% 53%"></div></figure><figure class="tile" data-s="0.636" data-ox="1.52" data-oy="2.80" style="--w:12.9;--ar:3/2;--z:1.09;z-index:24"><div class="plate" data-img="fall2" style="--pos:46% 52%"></div></figure><figure class="tile" data-s="0.669" data-ox="-2.66" data-oy="-0.19" style="--w:7.6;--ar:4/5;--z:1.66;z-index:25"><div class="plate" data-img="fall5" style="--pos:26% 61%"></div></figure><figure class="tile" data-s="0.702" data-ox="0.47" data-oy="0.87" style="--w:10.1;--ar:5/4;--z:1.01;z-index:26"><div class="plate" data-img="fall9" style="--pos:29% 35%"></div></figure><figure class="tile" data-s="0.736" data-ox="-2.62" data-oy="-2.69" style="--w:9.1;--ar:4/5;--z:1.51;z-index:27"><div class="plate" data-img="fall6" style="--pos:49% 67%"></div></figure><figure class="tile" data-s="0.769" data-ox="-0.27" data-oy="-0.26" style="--w:11.3;--ar:5/4;--z:1.53;z-index:28"><div class="plate" data-img="fall8" style="--pos:26% 49%"></div></figure><figure class="tile" data-s="0.803" data-ox="0.65" data-oy="-0.13" style="--w:8.8;--ar:3/2;--z:1.08;z-index:29"><div class="plate" data-img="fall7" style="--pos:74% 69%"></div></figure><figure class="tile" data-s="0.836" data-ox="1.02" data-oy="-0.10" style="--w:14.2;--ar:4/3;--z:1.21;z-index:30"><div class="plate" data-img="fall10" style="--pos:68% 69%"></div></figure><figure class="tile" data-s="0.870" data-ox="-1.90" data-oy="-2.31" style="--w:14.2;--ar:3/2;--z:1.65;z-index:31"><div class="plate" data-img="fall4" style="--pos:56% 45%"></div></figure><figure class="tile" data-s="0.903" data-ox="-1.11" data-oy="1.16" style="--w:8.6;--ar:4/5;--z:1.56;z-index:32"><div class="plate" data-img="fall3" style="--pos:73% 42%"></div></figure><figure class="tile" data-s="0.937" data-ox="2.43" data-oy="-0.81" style="--w:11.7;--ar:4/3;--z:1.15;z-index:33"><div class="plate" data-img="fall5" style="--pos:33% 61%"></div></figure><figure class="tile" data-s="0.970" data-ox="-0.96" data-oy="2.77" style="--w:7.3;--ar:3/4;--z:1.67;z-index:34"><div class="plate" data-img="fall7" style="--pos:42% 40%"></div></figure></div>
+  <div class="fall-head"><h2 class="tt" id="fallh">We Don’t Modify Vehicles<br>We Build Them For You</h2></div>
+  <div class="reveal"><div class="approach" id="approach">
+  <div class="plate p-leather" data-img="leather"><svg class="art" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+  <defs>
+    <filter id="grain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="3" seed="4" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 .5  0 0 0 0 .5  0 0 0 0 .5  0 0 0 .5 0"/></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="40"/></filter>
+    <filter id="soft2"><feGaussianBlur stdDeviation="2"/></filter>
+    <pattern id="perf" width="26" height="26" patternUnits="userSpaceOnUse" patternTransform="rotate(-24)"><circle cx="13" cy="13" r="3.6" fill="#030304"/><circle cx="13" cy="14.6" r="3.6" fill="none" stroke="#3a3a40" stroke-width="1" opacity=".55"/></pattern>
+    <radialGradient id="lit" cx="72%" cy="22%" r="70%"><stop offset="0" stop-color="#4a4a52" stop-opacity=".55"/><stop offset=".45" stop-color="#1c1c20" stop-opacity=".25"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+    <linearGradient id="pad" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#0a0a0c"/><stop offset=".55" stop-color="#17171a"/><stop offset="1" stop-color="#26262b"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#000" stop-opacity=".7"/><stop offset="1" stop-color="#000" stop-opacity="0"/></linearGradient>
+    <clipPath id="padclip"><path d="M-40 940 L-40 470 C260 560 520 520 700 400 C880 280 1020 250 1180 300 C1360 360 1500 520 1700 560 L1700 940Z"/></clipPath>
+  </defs>
+  <rect width="1600" height="900" fill="#0b0b0d"/>
+  <rect width="1600" height="900" fill="url(#lit)"/>
+  <rect width="1600" height="900" filter="url(#grain)" opacity=".35"/>
+  <path d="M-40 940 L-40 470 C260 560 520 520 700 400 C880 280 1020 250 1180 300 C1360 360 1500 520 1700 560 L1700 940Z" fill="url(#pad)"/>
+  <g clip-path="url(#padclip)">
+    <rect width="1600" height="900" fill="url(#perf)" opacity=".9"/>
+    <rect width="1600" height="900" filter="url(#grain)" opacity=".4"/>
+    <path d="M-40 470 C260 560 520 520 700 400 C880 280 1020 250 1180 300 C1360 360 1500 520 1700 560" fill="none" stroke="#000" stroke-width="46" opacity=".55" filter="url(#soft2)"/>
+  </g>
+  <path d="M-40 500 C260 590 540 548 722 428 C900 312 1020 284 1176 332 C1350 388 1500 548 1700 592" fill="none" stroke="#000" stroke-width="5" opacity=".8"/>
+  <path d="M-40 520 C260 610 556 566 740 448 C916 336 1030 310 1170 354 C1338 408 1488 568 1700 612" fill="none" stroke="#7a0b12" stroke-width="7" stroke-linecap="round" stroke-dasharray="15 13" opacity=".95"/>
+  <path d="M-40 518 C260 608 556 564 740 446 C916 334 1030 308 1170 352 C1338 406 1488 566 1700 610" fill="none" stroke="#d3202c" stroke-width="3" stroke-linecap="round" stroke-dasharray="15 13" opacity=".9"/>
+  <path d="M1170 352 C1290 330 1370 250 1470 170 C1520 130 1560 90 1600 70" fill="none" stroke="#d3202c" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M1170 352 C1290 330 1370 250 1470 170 C1520 130 1560 90 1600 70" fill="none" stroke="#ff6a6a" stroke-width=".8" opacity=".6"/>
+  <ellipse cx="1560" cy="90" rx="190" ry="140" fill="#7a5545" opacity=".55" filter="url(#soft)"/>
+  <ellipse cx="1500" cy="160" rx="90" ry="60" fill="#a9806a" opacity=".35" filter="url(#soft)"/>
+  <path d="M1440 20 C1470 120 1510 240 1560 300" fill="none" stroke="#d3202c" stroke-width="2" opacity=".5"/>
+</svg></div>
+  <h2 class="tt">Our Approach<br>To Every Build</h2>
+  <div class="row">
+    <div class="logos" aria-label="Marques we work with">
+      <svg viewBox="0 0 76 22" aria-label="Audi"><circle cx="12" cy="11" r="9"/><circle cx="26" cy="11" r="9"/><circle cx="40" cy="11" r="9"/><circle cx="54" cy="11" r="9"/></svg>
+      <span>Bentley</span><span>Jaguar</span><span>Lamborghini</span><span>Land Rover</span>
+    </div>
+    <div class="rv"><p class="sm">Every decision is intentional, every detail has purpose, based on your taste, your lifestyle, and your standards.</p><a class="btn" href="#contact">Start your project</a></div>
+  </div>
+</div></div>
+</section>
+
+
+
+<section class="card-sec" id="identity">
+  <div class="plate bg p-id" data-img="identity"></div>
+  <div class="wrap">
+    <figure class="frame" style="margin:0"><div class="plate p-id" data-img="identity" style="--pos:45% 42%"></div></figure>
+    <div class="tx"><p class="ct"><b>01</b> / 03</p><h2 class="tt">Identity</h2><p class="sm">Every build begins with the person behind the wheel, shaped around their individual taste, lifestyle, presence and personal sense of identity on the road.</p><a class="btn" href="#contact">Start your project</a></div>
+  </div>
+</section>
+
+<section class="card-sec" id="insight">
+  <div class="plate bg p-in" data-img="insight"></div>
+  <div class="wrap">
+    <figure class="frame" style="margin:0"><div class="plate p-in" data-img="insight" style="--pos:55% 62%"></div></figure>
+    <div class="tx"><p class="ct"><b>02</b> / 03</p><h2 class="tt">Insight</h2><p class="sm">Every surface is studied before it is touched, from the way light crosses a line to how a trim piece sits against the hand.</p><a class="btn" href="#contact">Start your project</a></div>
+  </div>
+</section>
+
+<section class="quote"><p id="quote">A vehicle should say something before it moves. Every line, material, and finish is considered.</p></section>
+
+<section class="feat" id="bodystyling">
+  <div class="tx"><h2 class="tt">Bodystyling</h2><p class="sm">Form follows intent. Aero, splitters, diffusers and bespoke panels reshape the stance of the car without losing its character.</p><a class="btn" href="#contact">Start your project</a></div>
+  <div class="imgs"><div class="box"><div class="plate p-body" data-img="bodystyling" style="--pos:55% 62%"></div></div></div>
+</section>
+
+<section class="feat" id="wheels">
+  <div class="tx"><h2 class="tt">Wheels</h2><p class="sm">Forged in bronze, finished by hand and matched to calipers that carry the same detail through every angle.</p><a class="btn" href="#contact">Start your project</a></div>
+  <div class="imgs two"><div class="box"><div class="plate p-cal" data-img="caliper" style="--pos:50% 38%"></div></div><div class="box"><div class="plate p-wheel" data-img="wheel" style="--pos:50% 50%"></div></div></div>
+</section>
+
+<section class="feat" id="lighting">
+  <div class="tx"><h2 class="tt">Lighting</h2><p class="sm">Light is given a character of its own. Signature halos, tuned beams and darkened lenses define the car after sunset.</p><a class="btn" href="#contact">Start your project</a></div>
+  <div class="imgs"><div class="box"><div class="plate p-light" data-img="lighting" style="--pos:60% 52%"></div></div></div>
+</section>
+
+<section class="feat" id="exhaust">
+  <div class="tx"><h2 class="tt">Exhaust</h2><p class="sm">Tuned for tone as much as power. Stainless quad tips, titanium routing and a note you recognise before you see the car.</p><a class="btn" href="#contact">Start your project</a></div>
+  <div class="imgs two"><div class="box"><div class="plate p-ex" data-img="exhaust" style="--pos:50% 55%"></div></div><div class="box"><div class="plate p-red" data-img="exhaust2" style="--pos:55% 50%"></div></div></div>
+</section>
+
+<section class="ordinary" aria-labelledby="ordh">
+  <div class="ord-in">
+    <div><h2 id="ordh">Where<br>Ordinary<br>Ends Here</h2><p class="sm">Complete expressions of taste, intent and individuality, shaped through detail, restraint and presence.</p></div>
+    <div class="ord-car"><div class="plate p-ord" data-img="ordinary"></div></div>
+  </div>
+</section>
+
+<section class="builds" id="builds">
+  <div class="plate p-head" data-img="headlight" style="--pos:58% 50%"></div>
+  <div><h2 class="tt">Previous Builds</h2><p class="sm">A selection of bespoke builds, shaped by taste, restraint and the people behind the wheel.</p><a class="btn" href="#builds">Explore builds</a></div>
+</section>
+
+<section class="stock" id="stock">
+  <div class="plate p-stock" data-img="stock" style="--pos:50% 62%"></div>
+  <div><h2 class="tt">Available Stock</h2><p class="sm">Builds available for purchase, refined with intent, engineered with purpose, and ready to make a statement.</p><a class="btn" href="#stock">Browse stock</a></div>
+</section>
+
+<section class="foot" id="contact">
+  <div class="plate p-rear" data-img="rear" style="--pos:50% 55%"></div>
+  <div><h2 class="tt">Refuse<br>Ordinary</h2><a class="btn" href="mailto:studio@forge.example">Start your project</a></div>
+  <button class="btn top" id="totop">Back to top</button>
+</section>
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.20/dist/lenis.min.js"></script>
+
+
+
+
+<script src="./script.js" defer></script>
+</body>
+</html>
